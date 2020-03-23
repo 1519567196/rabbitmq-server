@@ -68,9 +68,7 @@ groups() ->
 
           {queue_max_length, [], [
                                   {max_length_classic, [], MaxLengthTests},
-                                  {max_length_quorum, [], [max_length_default,
-                                                           max_length_bytes_default]
-                                  },
+                                  {max_length_quorum, [], [max_length_default]},
                                   {max_length_mirrored, [], MaxLengthTests}
                                  ]}
        ]}
